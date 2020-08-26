@@ -17,22 +17,25 @@ M과 A의 모양 자체가 비슷하여 인식을 정확히 하지 못하는 cas
 10개의 이미지를 np array형태로 바꾼 뒤, 미리 학습 시켜둔 cnn model에 집어 넣어서 label을 predict하고, 10개의 이미지의 label값중 가장 빈도가 높은 label을 해당 gesture의 최종 label 값으로 결정. 
 결정된 label에 해당하는 alphabet을 web cam의 blackboard에 append해서 자막 처럼 출력함.
 
-- 알파벳 수화로 문장을 만들기 위해 필요한 기능
- - <b>키보드 s 입력</b> -> blackboard 에 출력되고 있는 문장 뒤에 공백(" ") 추가.
- - <b>키보드 d 입력</b> -> blackboard 에 출력되고 있는 문장 전체 삭제.
- - <b>키보드 b 입력</b> -> blackboard 에 출력되고 있는 문장 끝의 알파벳 삭제. backspace 기능.
+- 알파벳 수화로 문장을 만들기 위해 필요한 기능 : 
+ - 키보드 s 입력 -> blackboard 에 출력되고 있는 문장 뒤에 공백(" ") 추가.
+ - 키보드 d 입력 -> blackboard 에 출력되고 있는 문장 전체 삭제.
+ - 키보드 b 입력 -> blackboard 에 출력되고 있는 문장 끝의 알파벳 삭제. backspace 기능.
 
-- 문장 tts(text to speech) 를 위한 기능
- - <b>키보드 r 입력</b> -> blackboard에 표시된 문장을 tts 기능을 이용해 읽어줌.
+- 문장 tts(text to speech) 를 위한 기능 :
+ - 키보드 r 입력 -> blackboard에 표시된 문장을 tts 기능을 이용해 읽어줌.
 
 
+</br>
 <b>make_gestures.py</b> 
  - web cam 상에 알파벳 수화를 표시할 박스(공간)을 그려줌. 키보드 p가 입력되면, 그 영역에서 2000 프레임 동안 1프레임씩 총 2000장의 이미지를 생성.
  이런식으로 한 알파벳 수화 당 총 8000 장의 학습 데이터를 생성함.
- 
+
+</br>
 <b>load_iamges.py</b> 
 - 생성한 이미지들을 모두 불러와, image label을 추출하고 이미지들을 suffle해서 dump 파일로 저장함.
 
+</br>
 <b>cnn_keras2.py</b> 
 - CNN을 이용해 모델을 만들고 저장하는 파일.
 - CNN은 4개의 layer로 이루어져 있는데, (2,2) pool_size와 3*3 convolution filter를 사용하였고, activation function은 relu와 softmax 를 
