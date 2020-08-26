@@ -15,5 +15,5 @@ cnn_keras*.py file에서 찾아볼 수 있다.
 learning rate 와 epoch를 달리하면서 총 5개의 machine learning model를 만들어 보았고,
 그중 epoch=10 learning rate=0.01, epoch=8 learning rate=0.005인 두가지 model이 test accuracy가 99% 이상으로 높게 나왔다. 그래서 이 두가지 모델을 사용하였다.
 
-학습 시킨 알파벳 수화 image 는 11개로 A B C D E M O P I  LOVE MONEY(custom gesture) 가 있다.
+학습 시킨 알파벳 수화 image 는 11개로 A B C D E M O P I  / LOVE, MONEY(custom gesture) 가 있다.
 M과 A의 모양 자체가 비슷하여 인식을 정확히 하지 못하는 case가 더러 있다. 
