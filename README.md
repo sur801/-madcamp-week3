@@ -18,12 +18,12 @@ M과 A의 모양 자체가 비슷하여 인식을 정확히 하지 못하는 cas
 결정된 label에 해당하는 alphabet을 web cam의 blackboard에 append해서 자막 처럼 출력함.
 
 - 알파벳 수화로 문장을 만들기 위해 필요한 기능 : 
- - 키보드 s 입력 -> blackboard 에 출력되고 있는 문장 뒤에 공백(" ") 추가.
- - 키보드 d 입력 -> blackboard 에 출력되고 있는 문장 전체 삭제.
- - 키보드 b 입력 -> blackboard 에 출력되고 있는 문장 끝의 알파벳 삭제. backspace 기능.
+  - 키보드 s 입력 -> blackboard 에 출력되고 있는 문장 뒤에 공백(" ") 추가.
+  - 키보드 d 입력 -> blackboard 에 출력되고 있는 문장 전체 삭제.
+  - 키보드 b 입력 -> blackboard 에 출력되고 있는 문장 끝의 알파벳 삭제. backspace 기능.
 
 - 문장 tts(text to speech) 를 위한 기능 :
- - 키보드 r 입력 -> blackboard에 표시된 문장을 tts 기능을 이용해 읽어줌.
+  - 키보드 r 입력 -> blackboard에 표시된 문장을 tts 기능을 이용해 읽어줌.
 
 
 <b>make_gestures.py</b> :
