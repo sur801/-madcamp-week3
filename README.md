@@ -17,15 +17,15 @@ M과 A의 모양 자체가 비슷하여 인식을 정확히 하지 못하는 cas
 10개의 이미지를 np array형태로 바꾼 뒤, 미리 학습 시켜둔 cnn model에 집어 넣어서 label을 predict하고, 10개의 이미지의 label값중 가장 빈도가 높은 label을 해당 gesture의 최종 label 값으로 결정. 
 결정된 label에 해당하는 alphabet을 web cam의 blackboard에 append해서 자막 처럼 출력함.
 
-**알파벳 수화로 문장을 만들기 위해 필요한 기능들**
-<b>키보드 s 입력</b> -> blackboard 에 출력되고 있는 문장 뒤에 공백(" ") 추가.
+</t>**알파벳 수화로 문장을 만들기 위해 필요한 기능들**<br>
+</t><b>키보드 s 입력</b> -> blackboard 에 출력되고 있는 문장 뒤에 공백(" ") 추가.
 
-<b>키보드 d 입력</b> -> blackboard 에 출력되고 있는 문장 전체 삭제.
+</t><b>키보드 d 입력</b> -> blackboard 에 출력되고 있는 문장 전체 삭제.
 
-<b>키보드 b 입력</b> -> blackboard 에 출력되고 있는 문장 끝의 알파벳 삭제. backspace 기능.
+</t><b>키보드 b 입력</b> -> blackboard 에 출력되고 있는 문장 끝의 알파벳 삭제. backspace 기능.
 
-**문장 tts(text to speech) 를 위한 기능**
-<b>키보드 r 입력</b> -> blackboard에 표시된 문장을 tts 기능을 이용해 읽어줌.
+</t>**문장 tts(text to speech) 를 위한 기능**<br>
+</t><b>키보드 r 입력</b> -> blackboard에 표시된 문장을 tts 기능을 이용해 읽어줌.
 
 
 <b>make_gestures.py</b> 
