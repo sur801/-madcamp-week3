@@ -26,17 +26,16 @@ M과 A의 모양 자체가 비슷하여 인식을 정확히 하지 못하는 cas
  - 키보드 r 입력 -> blackboard에 표시된 문장을 tts 기능을 이용해 읽어줌.
 
 
-</br>
-<b>make_gestures.py</b> 
+<b>make_gestures.py</b> :
  - web cam 상에 알파벳 수화를 표시할 박스(공간)을 그려줌. 키보드 p가 입력되면, 그 영역에서 2000 프레임 동안 1프레임씩 총 2000장의 이미지를 생성.
  이런식으로 한 알파벳 수화 당 총 8000 장의 학습 데이터를 생성함.
 
-</br>
-<b>load_iamges.py</b> 
+
+<b>load_iamges.py</b> :
 - 생성한 이미지들을 모두 불러와, image label을 추출하고 이미지들을 suffle해서 dump 파일로 저장함.
 
-</br>
-<b>cnn_keras2.py</b> 
+
+<b>cnn_keras2.py</b> :
 - CNN을 이용해 모델을 만들고 저장하는 파일.
 - CNN은 4개의 layer로 이루어져 있는데, (2,2) pool_size와 3*3 convolution filter를 사용하였고, activation function은 relu와 softmax 를 
 사용하였다. 
