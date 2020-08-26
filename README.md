@@ -1,7 +1,7 @@
 # madcamp-week3
 카이스트 몰입캠프 3주차. Machine learning. 알파벳 수화 번역 프로그램 개발
 
-CNN (Convolution Neural NetWork)를 이용하여 알바펫 수화 이미지를 학습시키고, Open Cv 의 web cam 을 통해 가져오 손 수화 이미지를 캡처 해와 알맞은 알파벳 수화로 classify 함. 그리고 classify된 알파벳을, web cam 화면 상의 black board에 띄워주고. 알파벳을 이용해 문장을 구성해 tts로 문장을 읽을 수 있게 함.
+CNN (Convolution Neural NetWork)를 이용하여 알파벳 수화 이미지를 학습시키고, Open Cv 의 web cam 을 통해 가져오 손 수화 이미지를 캡처 해와 알맞은 알파벳 수화로 classify 함. 그리고 classify된 알파벳을, web cam 화면 상의 black board에 띄워주고. 알파벳을 이용해 문장을 구성해 tts로 문장을 읽을 수 있게 함.
 학습 시킨 알파벳 수화 image 는 11개로 A B C D E M O P I  / LOVE, MONEY(custom gesture) 가 있다.
 M과 A의 모양 자체가 비슷하여 인식을 정확히 하지 못하는 case가 더러 있다. 
 
