@@ -44,4 +44,9 @@ M과 A의 모양 자체가 비슷하여 인식을 정확히 하지 못하는 cas
 사용하였다. 
 - loss function은 categorical_crossentropy, optimizer는 adam을 
 사용했다.
-- learning rate 와 epoch를 달리하면서 총 5개의 machine learning model를 만들어 보았고, 그중 epoch=10 learning rate=0.01, epoch=8 learning rate=0.005인 두가지 model이 test accuracy가 99% 이상으로 높게 나왔다. 그래서 이 두가지 모델을 사용하였다.
+- learning rate 와 epoch를 달리하면서 총 5개의 machine learning model를 만들어 보았고, 그중 epoch=10 learning rate=0.01, epoch=8 learning rate=0.005인 두가지 model이 test accuracy가 99% 이상으로 높게 나왔다. 그래서 이 두가지 모델을 사용하였다.  
+
+
+# 실행 사진
+
+ <img src="https://user-images.githubusercontent.com/5088280/100610507-34702900-3353-11eb-8b4d-7e2ba589dfab.png" width="400" height="270">  
