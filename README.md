@@ -47,6 +47,7 @@
   - 키보드 r 입력 -> blackboard에 표시된 문장을 tts 기능을 이용해 읽어줌.  
 
  
+</br>
 
 <b>make_gestures.py</b> :
 
@@ -54,12 +55,14 @@
    이런식으로 한 알파벳 수화 당 총 8000 장의 학습 데이터를 생성함.  
 
  
+</br>
 
 <b>load_iamges.py</b> :
 
 - 생성한 이미지들을 모두 불러와, image label을 추출하고 이미지들을 suffle해서 dump 파일로 저장함.  
 
  
+</br>
 
 <b>cnn_keras2.py</b> :
 
