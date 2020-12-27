@@ -17,7 +17,7 @@
   - Open Cv 의 web cam 을 통해 가져온 손 수화 이미지를 캡처 해와 알맞은 알파벳 수화로 classify 함. 
     그리고 classify된 알파벳을, web cam 화면 상의 black board에 띄움.
   - 여러 알파벳을 이용해 문장을 구성하고, TTS로 문장을 읽을 수 있게 함.
-  - 학습 시킨 알파벳 수화 Image 는 11개로 A B C D E M O P I  / LOVE, MONEY(Custom Gesture) 가 있다.
+  - 학습 시킨 알파벳 수화 Image 는 12개로 A B C D E M O P I Y / LOVE, MONEY(Custom Gesture) 가 있다.
     M과 A의 모양 자체가 비슷하여 인식을 정확히 하지 못하는 case가 더러 있음.
 
 
